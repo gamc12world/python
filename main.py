@@ -12,8 +12,8 @@ while x1:
         break
     else:
         if x1==player_guess:
-            print(all_the_guesses)
-            print(counter_var)
+            print(f"The no of guesses are {all_the_guesses}")
+            print(f"No.of tries are {counter_var}")
             print("you won")
             break
         else:
@@ -25,4 +25,5 @@ while x1:
                     print("warm")
                 else:
                     print("cold")
-            
+
+
