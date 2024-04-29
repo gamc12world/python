@@ -25,4 +25,3 @@ while x1:
                     print("warm")
                 else:
                     print("cold")
-
